@@ -1,15 +1,15 @@
 #!/bin/bash -x
 read -p "Enter No:" No
-if [ $No -le 9 ]
+if [ $No -eq 1 ]
 then 
-		printf "Unit"
-elif [ $No -ge 9 -a $No -le 99 ]
+		echo "Unit"
+elif [ $No -eq 10 ]
 then
-		printf "Ten"
-elif [ $No -ge 99 -a $No -le 999 ]
+		echo "Ten"
+elif [ $No -eq 100 ]
 then 
-		printf "Hundread"
-elif [ $No -ge 999 -a $No -le 9999 ]
+		echo "Hundread"
+elif [ $No -eq 1000 ]
 then 
-		printf "Thousand"
+		echo "Thousand"
 fi 
