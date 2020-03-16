@@ -5,16 +5,16 @@ function IsPrime()
 	cnt=0
 	for(( i=1;i<=$No;i++))
 	do
-			if [[ $No%$i -eq 0 ]]
-			then
-					(( cnt++ ))
-			fi
+		if [[ $No%$i -eq 0 ]]
+		then
+			(( cnt++ ))
+		fi
 	done 
 	if [[ $cnt -eq 2 ]]
 	then
-			echo $1
+		echo $1
 	else
-			break
+		break
 	fi
 }
 
@@ -31,10 +31,10 @@ function IsPalindrome()
 	done
 	if [ $rev -eq $temp ]
 	then
-			result=$( IsPrime $rev )
-			echo $result
+		result=$( IsPrime $rev )
+		echo $result
 	else
-			break
+		break
 	fi 
 }
 
