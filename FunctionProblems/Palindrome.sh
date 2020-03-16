@@ -11,9 +11,9 @@ function IsPalindrome1()
 	done
 	if [[ $rev == $1 ]]
 	then
-			echo $rev
+		echo $rev
 	else
-			echo "Not palindrome"
+		echo "Not palindrome"
 	fi
 }
 
