@@ -1,4 +1,4 @@
-#!/bin/bash +x
+#!/bin/bash -x 
 read -p "Enter No:" No
 for(( i=2;i*i<=No;i++))
 do
