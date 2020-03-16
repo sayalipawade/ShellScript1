@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/bash -x
 read -p "Enter Year:" year
 year=$(($year%4))
-if [ $year -eq 0 ];
+if [ $year -eq 0 ]
 then
-		echo "Leap Year"
+	echo "Leap Year"
 else
-		echo "Not Leap Year"
+	echo "Not Leap Year"
 fi
