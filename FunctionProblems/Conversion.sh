@@ -17,11 +17,11 @@ echo "2.Fahrenheit to Celcius Conversion"
 read -p "Enter your choice:" choice
 case $choice in
 		1) Fahrenheit  
-			;;
+		;;
 		2) Celcius 
-			;;
+		;;
 		*)
-			echo "Wrong Input"
+		echo "Wrong Input"
 esac
 
 			
