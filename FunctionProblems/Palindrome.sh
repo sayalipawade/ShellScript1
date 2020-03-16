@@ -24,9 +24,9 @@ result2=$( IsPalindrome1 $Number2 )
 
 if [ $result1 -eq $result2 ]
 then
-		echo "Both are same and Palindrome"
+	echo "Both are same and Palindrome"
 else
-		echo "Both are not same"
+	echo "Both are not same"
 fi
 		
 	
