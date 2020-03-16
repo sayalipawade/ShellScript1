@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash 
 for(( i=1;i<=5;i++))
 do
 	No=$((RANDOM%100))
@@ -6,3 +6,5 @@ do
 	sum=$((sum+No))
 	avg=$((sum/5))
 done
+	echo "Sum=$sum"
+	echo "Average=$avg"
