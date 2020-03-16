@@ -1,4 +1,4 @@
-#!/bin/bash +x
+#!/bin/bash -x
 cnt=0;
 read -p "Enter No:" No
 for(( i=1;i<=No;i++))
@@ -8,9 +8,9 @@ do
 			(( cnt++ ))
 		fi
 done
-		if [ $cnt -eq 2 ]
-		then
-				echo "Prime No"
-		else
-				echo "Not Prime"
-		fi
+if [ $cnt -eq 2 ]
+then
+	echo "Prime No"
+else
+	echo "Not Prime"
+fi
