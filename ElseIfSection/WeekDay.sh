@@ -1,26 +1,26 @@
-#!/bin/bash
+#!/bin/bash -x
 read -p "Enter Day No:" No
 if [ $No -eq 1 ]
 then
-		echo "Sunday"
+	echo "Sunday"
 elif [ $No -eq 2 ]
 then 
-		echo "Monday"
+	echo "Monday"
 elif [ $No -eq 3 ]
 then
-		echo "Tuesday"
+	echo "Tuesday"
 elif [ $No -eq  4 ]
 then 
-		echo "Wednesday"
+	echo "Wednesday"
 elif [ $No -eq 5 ]
 then
-		echo "Thursday"
+	echo "Thursday"
 elif [ $No -eq 6 ]
 then 
-		echo "Friday"
+	echo "Friday"
 elif [ $No -eq 7 ]
 then 
-		echo "Saturday"
+	echo "Saturday"
 else
-		echo "Not valid"
+	echo "Not valid"
 fi
