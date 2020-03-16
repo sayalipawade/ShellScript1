@@ -3,36 +3,36 @@ read -p "Enter Single Digit No:" No
 echo $No
 if [ $No -eq 0 ]
 then
-		echo "Zero"
+	echo "Zero"
 elif [ $No -eq 1 ]
 then
-		echo "One"
+	echo "One"
 elif [ $No -eq 2 ]
 then
-		echo "Two"
+	echo "Two"
 elif [ $No -eq 3 ]
 then
-		echo "Three"
+	echo "Three"
 elif [ $No -eq 4 ]
 then 
-		echo "Four"
+	echo "Four"
 elif [ $No -eq 5 ]
 then
-		echo "Five"
+	echo "Five"
 elif [ $No -eq 6 ]
 then
-		echo "Six"
+	echo "Six"
 elif [ $No -eq 7 ]
 then
-		echo "Seven"
+	echo "Seven"
 elif [ $No -eq 8 ]
 then
-		echo "Eight"
+	echo "Eight"
 elif [ $No -eq 9 ]
 then
-		echo "Nine"
+	echo "Nine"
 else
-		echo "Not valid No"
+	echo "Not valid No"
 fi
 
 
