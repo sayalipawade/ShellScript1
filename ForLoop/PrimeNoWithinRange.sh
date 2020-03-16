@@ -9,7 +9,7 @@ do
 	do
 		if [ $(($i%$j)) -eq 0 ]
 		then
-				((cnt++))
+			((cnt++))
 		fi
 	done
  	
