@@ -7,21 +7,21 @@ do
 	toss=$(( RANDOM%2 ))
 	if [ $toss -eq 1 ]
 	then
-			echo "Head:$Head"
+		echo "Head:$Head"
 		(( Head++ ))
 	else
-			echo "Tail:$Tail"
+		echo "Tail:$Tail"
 		(( Tail++ ))
 	fi
 
 	if [ $Head -eq 11 ]
 	then
-			echo "Head Wins"
-			exit
+		echo "Head Wins"
+		exit
 	elif [ $Tail -eq 11 ]
 	then
-			echo "Tail wins"
-			exit
+		echo "Tail wins"
+		exit
 	fi
 	(( cnt++ ))
 done 
