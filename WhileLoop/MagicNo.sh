@@ -8,14 +8,14 @@ while [ $low -le $high ]
 		read -p "If your no is less than $mid enter 'y',If your no is greater than $mid enter 'n',otherwise enter 'f':" ans
 		if [[ $ans == "f" ]] 
 		then
-			 	echo "Your number is $mid number"
-				break
+			echo "Your number is $mid number"
+			break
 		elif [[ $ans == "y" ]]
 		then
-				high=$(($mid))
+			high=$(($mid))
 		elif [[ $ans == "n" ]] 
 		then
-				low=$(($mid))
+			low=$(($mid))
 		fi
 			mid=$(( ($low+$high)/2 ))
 
