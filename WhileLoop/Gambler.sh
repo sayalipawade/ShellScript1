@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash -x 
 read -p "Enter your stake:" stake 
 read -p "Enter your goal:" goal
 cnt=0;
