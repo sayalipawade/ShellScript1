@@ -2,9 +2,9 @@
 function Triplet()
 {
 	count=0
-	for(( i=0;i<size-2;i++))
+	for(( i=0;i<size;i++))
 	do
-		for(( j=i+1;j<size-1;j++))
+		for(( j=i+1;j<size;j++))
 		do
 			for(( k=j+1;k<size;k++))
 			do
