@@ -1,10 +1,15 @@
-#!/bin/bash -x 
+#!/bin/bash -x  
 read -p "Enter No:" No
-for(( i=2;i*i<=No;i++))
+for ((i=2;i<=$No;i++))
 do
-		while [ $((No%i)) -eq 0 ]
-		do
-			echo "$i"
-			No=$((No/i))
-		done
+		if [[ $(($No%$i)) -eq 0 ]]
+		then
+			count=0
+			while [[ $(($No%$i)) -eq 0 ]]
+			do
+				No=$(($No/$i))
+				((count++))
+			done
+			echo "$i^$count"
+		fi
 done
